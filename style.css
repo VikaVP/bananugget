@@ -1,3 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  color: rgba(250, 250, 37, 0.8);
+  position: fixed;
+  top: 0;
+}
+
+nav img {
+  width: 100px;
+  height: 90px;
+}
+
+nav h1 {
+  font-family: "Lobster", cursive;
+}
 /*Global*/
 .container {
   width: 80%;

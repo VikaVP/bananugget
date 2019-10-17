@@ -1,44 +1,129 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
-    <title>Bananuget! Rajanya Pisang</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
+<head>
+	<title>Banana Nugget</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-  <body>
-    <header>
-      <nav>
+</head>
+<body>
+	
+	<nav>
         <center>
-          <table>
-            <th>
-              <img src="assets/bananuggets.jpeg" alt="bananugget" />
-            </th>
-            <th>
-              <h1>BANANUGGET</h1>
-            </th>
-          </table>
-        </center>
-      </nav>
-      //masukin form nya
-    </header>
-  </body>
+            <table>
+                <th>
+                    <img src="assets/bananuggets.jpeg" alt="bananugget">
+                </th>
+                <th>
+                    <h1>BANANUGGET</h1>
+                </th>
 
-  <footer>
-    <p>Copyright &copy; 2018-2019 Bananuggets Indonesia. All Rights Reserved.</p>
-    <strong>Contact Us:</strong><br>
+            </table>
+        </center>
+    </nav>
+
+	<main>
+		<section class="tengah">
+			<form id="form_bayar" action="index3.html">
+				<table class="tabel_pembayaran">
+					<tr>
+						<td class="h1" colspan="3">
+							<h1>Data Diri dan Pembayaran</h1>
+						</td>
+					</tr>
+					<tr>
+						<td class="td">
+							<label for="nama">Nama</label>
+						</td>
+						<td class="td">:</td>
+						<td class="inputrow">
+							<input type="text" name="nama" class="input" id="nama" placeholder="Nama Lengkap">			
+						</td>
+					</tr>
+
+					<tr>
+						<td class="td">
+							<label for="alamat">Alamat</label>
+						</td>
+						<td class="td">:</td>
+						<td class="inputrow">
+							<textarea rows="5" id="alamat" placeholder="Alamat Pemesanan"></textarea>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="td">
+							<label for="telp">Nomor Telepon</label>
+						</td>
+						<td class="td">:</td>
+						<td class="inputrow">
+							<input type="text" name="telp" class="input" id="telp" placeholder="Nomor Telepon">
+						</td>
+					</tr>
+
+					<tr>
+						<td class="total" colspan="3">
+							<h2>Total Pembayaran</h2>
+							<h2>RP. 100.000</h2>
+							<h3>Silahkan pilih opsi pembayaran</h3>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="td">
+							<label for="pembayarann">Opsi Pembayaran
+							</label>
+						</td>
+						<td class="td">:</td>
+						<td class="inputrow">
+							<select rows="3">
+								<option>Gopay</option>
+								<option>OVO</option>
+								<option>Debit</option>
+							</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="td">
+							<label for="pengiriman">Opsi Pengiriman
+							</label>		
+						</td>
+						<td class="td">:</td>
+						<td class="inputrow">
+							<select>
+								<option>Gojek</option>
+								<option>Grab</option>
+							</select>			
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="3">
+							<input type="submit" name="submit" id="submit" value="OK">			
+						</td>
+					</tr>
+			
+				</table>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+    <p>Copyright &copy; 2018-2019 Bananugets Indonesia. All Rights Reserved.</p>
+    <strong>Contact Us</strong> <br />
+    <br />
     99 Menuju Surga street, Suite A-300<br />
     kambing Valley, Jakarta Selatan 95066<br />
+    <br />
     420 Block St. E., South Tower, Suite 399<br />
     Kebayoran Lama, Jakarta<br />
     <br />
     Telephone : (888) 111-222<br />
     social media : Bananugets
   </footer>
+</body>
 </html>

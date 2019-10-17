@@ -8,7 +8,6 @@ nav {
   position: fixed;
   background-color: black;
   color: rgba(250, 250, 37, 0.8);
-  position: fixed;
   top: 0;
 }
 
@@ -26,7 +25,6 @@ nav h1 {
   margin: auto;
   overflow: hidden;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -38,7 +36,6 @@ body {
 
 footer {
   padding: 20px;
-  margin-top: 20px;
   color: white;
   background-color: black;
   text-align: center;
@@ -63,6 +60,10 @@ footer {
     width: 100%;
 }
 
+.tab{
+	margin-top: 20px;
+}
+
 .home {
     width: 100%;
     text-align: center;
@@ -80,5 +81,98 @@ footer {
 
 .home a:hover {
     background: black;
+    color: yellow;
+}
+
+/* INDEX 2 */
+
+.tengah{
+	margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: silver;
+    font-family: arial;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.h1 h1{
+    border-bottom: 1px dotted yellow;
+    font-size: 40px;
+    font-family: arial;
+    text-align: center;
+}
+
+#form_bayar{
+    width: 35%;
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    box-shadow: -2px 2px 20px teal;
+}
+
+.tabel_pembayaran{
+    line-height: 5;
+}
+
+.td{
+    width: 10%;
+}
+
+.td label{
+    font-size: 20px;
+}
+
+input, textarea , select{
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.inputrow{
+    width: 30%;
+}
+
+.label{
+    text-align: left;
+}
+
+.input, select, textarea{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.input, select{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.total{
+    border-top: 1px solid yellow; 
+    border-bottom: 1px solid yellow; 
+    line-height: 2; 
+    text-align: center;"
+}
+
+.button{
+    
+}
+
+#submit{
+    width: 100%;
+    background-color: yellow;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: black;
     color: yellow;
 }

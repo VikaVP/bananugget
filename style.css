@@ -22,7 +22,10 @@ nav h1 {
 /*Global*/
 .container {
   width: 80%;
-  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
 }
 body {
@@ -41,47 +44,41 @@ footer {
   text-align: center;
 }
 
-.quote img {
-    opacity: 0.8;
-    margin-top: 90px;
-    position: relative;
-    z-index: -999;
-    border: 2px solid yellow;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    height: 570px;
+/* INDEX 1 */
+
+#gambar-pisang{
+    width:150px; height: 100px;
+    margin: 20px;
+    border-radius:50% ;
 }
 
-.terimakasih {
-    margin-top: -150px;
-    text-align: center;
-    background: rgba(255, 255, 0, 0.8);
-    padding-top: 15px;
-    padding-bottom: 85px;
+.tombol{
     width: 100%;
-}
-
-.tab{
-	margin-top: 20px;
-}
-
-.home {
-    width: 100%;
-    text-align: center;
-    margin-top: -65px;
-}
-.home a {
-    background: yellow;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 15px;
-    color:black;
-    text-decoration: none;
+    height: 50px;
+    background-color: sienna; 
+    font-size:25;
     font-weight: bold;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
-.home a:hover {
-    background: black;
-    color: yellow;
+.tombol:hover{
+    background-color: silver;
+}
+
+.pisang1{
+    height: 100%;
+    padding: 5px 30px;
+    margin: 0px 20px;
+
+}
+
+.pisang2{
+    width: 120px;
+    height: 70px;
+    padding: 20px 30px;
+    margin: 30px 20px;
 }
 
 /* INDEX 2 */
@@ -176,3 +173,49 @@ input, textarea , select{
     background-color: black;
     color: yellow;
 }
+
+/* INDEX 3 */
+
+.quote img {
+    opacity: 0.8;
+    margin-top: 90px;
+    position: relative;
+    z-index: -999;
+    border: 2px solid yellow;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    height: 570px;
+}
+
+.terimakasih {
+    margin-top: -150px;
+    text-align: center;
+    background: rgba(255, 255, 0, 0.8);
+    padding-top: 15px;
+    padding-bottom: 85px;
+    width: 100%;
+}
+
+.tab{
+	margin-top: 20px;
+}
+
+.home {
+    width: 100%;
+    text-align: center;
+    margin-top: -65px;
+}
+.home a {
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home a:hover {
+    background: black;
+    color: yellow;
+}
+
